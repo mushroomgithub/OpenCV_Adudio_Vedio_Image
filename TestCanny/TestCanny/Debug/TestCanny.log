@@ -1,0 +1,28 @@
+﻿生成启动时间为 2014/10/1 11:10:06。
+     1>项目“E:\OpenCV练习\TestCanny\TestCanny\TestCanny.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\TestCanny.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files\MATLAB\R2010b\extern\include\win32" /I"D:\Program Files\MATLAB\R2010b\extern\include" /AI"D:\Program Files\MATLAB\R2010b\extern\lib\win32\microsoft" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 332.cpp
+         332.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCV练习\TestCanny\Debug\TestCanny.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files\MATLAB\R2010b\extern\lib\win32\microsoft" libeng.lib libmat.lib libmex.lib libmx.lib mclmcrrt.lib mclmcr.lib opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_nonfree243d.lib opencv_objdetect243d.lib opencv_photo243d.lib opencv_stitching243d.lib opencv_ts243d.lib opencv_video243d.lib opencv_videostab243d.lib /MANIFEST /ManifestFile:"Debug\TestCanny.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\OpenCV练习\TestCanny\Debug\TestCanny.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenCV练习\TestCanny\Debug\TestCanny.lib" /MACHINE:X86 Debug\TestCanny.exe.embed.manifest.res
+         Debug\332.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TestCanny.exe.embed.manifest" /manifest Debug\TestCanny.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         TestCanny.vcxproj -> E:\OpenCV练习\TestCanny\Debug\TestCanny.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\TestCanny.unsuccessfulbuild”。
+         正在对“Debug\TestCanny.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\OpenCV练习\TestCanny\TestCanny\TestCanny.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.26

@@ -1,0 +1,42 @@
+﻿生成启动时间为 2014/10/7 16:37:43。
+     1>项目“E:\OpenCV练习\TestFrame_Opencv\TestFrame_Opencv\TestFrame_Opencv.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\TestFrame_Opencv.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files\MATLAB\R2010b\extern\include\win32" /I"D:\Program Files\MATLAB\R2010b\extern\include" /AI"D:\Program Files\MATLAB\R2010b\extern\lib\win32\microsoft" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\TestFrame_Opencv.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TestFrame_OpencvView.cpp
+         TestFrame_OpencvView.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>C:\Program Files\opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>C:\Program Files\opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCV练习\TestFrame_Opencv\Release\TestFrame_Opencv.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Program Files\MATLAB\R2010b\extern\lib\win32\microsoft" libeng.lib libmat.lib libmex.lib libmx.lib mclmcrrt.lib mclmcr.lib opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_nonfree243d.lib opencv_objdetect243d.lib opencv_photo243d.lib opencv_stitching243d.lib opencv_ts243d.lib opencv_video243d.lib opencv_videostab243d.lib /MANIFEST /ManifestFile:"Release\TestFrame_Opencv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\OpenCV练习\TestFrame_Opencv\Release\TestFrame_Opencv.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenCV练习\TestFrame_Opencv\Release\TestFrame_Opencv.lib" /MACHINE:X86 Release\TestFrame_Opencv.res
+         Release\ClassView.obj
+         Release\CvvImage.obj
+         Release\FileView.obj
+         Release\MainFrm.obj
+         Release\OutputWnd.obj
+         Release\PropertiesWnd.obj
+         Release\stdafx.obj
+         Release\TestFrame_Opencv.obj
+         Release\TestFrame_OpencvDoc.obj
+         Release\TestFrame_OpencvView.obj
+         Release\ViewTree.obj
+         正在生成代码
+         已完成代码的生成
+         TestFrame_Opencv.vcxproj -> E:\OpenCV练习\TestFrame_Opencv\Release\TestFrame_Opencv.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\OpenCV练习\TestFrame_Opencv\Release\TestFrame_Opencv.exe;#1" /manifest Release\TestFrame_Opencv.exe.intermediate.manifest "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\TestFrame_Opencv.unsuccessfulbuild”。
+         正在对“Release\TestFrame_Opencv.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\OpenCV练习\TestFrame_Opencv\TestFrame_Opencv\TestFrame_Opencv.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.08

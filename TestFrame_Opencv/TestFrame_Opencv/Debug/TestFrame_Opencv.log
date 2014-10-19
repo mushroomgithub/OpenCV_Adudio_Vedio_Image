@@ -1,0 +1,21 @@
+﻿生成启动时间为 2014/10/7 15:40:31。
+     1>项目“E:\OpenCV练习\TestFrame_Opencv\TestFrame_Opencv\TestFrame_Opencv.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\TestFrame_Opencv.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files\MATLAB\R2010b\extern\include\win32" /I"D:\Program Files\MATLAB\R2010b\extern\include" /AI"D:\Program Files\MATLAB\R2010b\extern\lib\win32\microsoft" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TestFrame_Opencv.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TestFrame_OpencvView.cpp
+         TestFrame_OpencvView.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\program files\opencv\build\include\opencv2\legacy\blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\program files\opencv\build\include\opencv2\legacy\blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\opencv练习\testframe_opencv\testframe_opencv\testframe_opencvview.cpp(67): error C2039: “DrawToHDC”: 不是“ATL::CImage”的成员
+                 d:\program files\microsoft visual studio 10.0\vc\atlmfc\include\atlimage.h(68) : 参见“ATL::CImage”的声明
+     1>已完成生成项目“E:\OpenCV练习\TestFrame_Opencv\TestFrame_Opencv\TestFrame_Opencv.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.10
